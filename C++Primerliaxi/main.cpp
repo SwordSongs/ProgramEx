@@ -216,8 +216,8 @@ int main() {
 	//char isql[1024];
 	//sprintf_s(isql,1024,"%08X%08d",110,16);
 	//cout << isql << endl;
-	A::B b;
-	b.printB();
+	string s = "test";
+	cout << s << endl;
 
 	system("pause");
 	return 0;
