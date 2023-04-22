@@ -1,12 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "stack_Array.h"
+#include "stack.h"
 
 int main(void)
 {
-    push(10);
-    push(20);
-    push(30);
+    push(100);
+    push(200);
+    push(300);
 
     int result = pop();
     printf("%d ", result);

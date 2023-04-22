@@ -1,13 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "stack_array.h"
+#include "stack.h"
 
 #define STACK_SIZE 100
+#include PRIVATE static
 
-static int contents[STACK_SIZE];
-static int top = 0;
+PRIVATE int contents[STACK_SIZE];
+PRIVATE int top = 0;
 
-static void terminate(const char *message)
+PRIVATE void terminate(const char *message)
 {
     printf("%s\n");
     exit(EXIT_FAILURE);
